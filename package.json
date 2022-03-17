@@ -44,6 +44,11 @@
   },
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "2.6.0"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
   }
 }
